@@ -1,0 +1,79 @@
+{
+  "_from": "@vuepress/theme-blog@^1.0.0-alpha.44",
+  "_id": "@vuepress/theme-blog@1.0.0-alpha.44",
+  "_inBundle": false,
+  "_integrity": "sha512-a2OXi1Z73Ix2gZuFxwnpiwLG8AxrvRBLM8gzNjHh1VEd5YGOFaTh6wt/QHcuFmuUDCvH56HNBprTwTBYv9tHxA==",
+  "_location": "/@vuepress/theme-blog",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@vuepress/theme-blog@^1.0.0-alpha.44",
+    "name": "@vuepress/theme-blog",
+    "escapedName": "@vuepress%2ftheme-blog",
+    "scope": "@vuepress",
+    "rawSpec": "^1.0.0-alpha.44",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0-alpha.44"
+  },
+  "_requiredBy": [
+    "/@vuepress/theme-vue",
+    "/vuepress"
+  ],
+  "_resolved": "https://registry.npmjs.org/@vuepress/theme-blog/-/theme-blog-1.0.0-alpha.44.tgz",
+  "_shasum": "48f973dc52a83a9c64292ec15c2c341111bb28c4",
+  "_spec": "@vuepress/theme-blog@^1.0.0-alpha.44",
+  "_where": "C:\\Users\\mayn\\Desktop\\docs\\node_modules\\@vuepress\\theme-vue",
+  "author": {
+    "name": "Artiely"
+  },
+  "bugs": {
+    "url": "https://github.com/vuejs/vuepress/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.44",
+    "@vuepress/plugin-container": "^1.0.0-alpha.44",
+    "@vuepress/plugin-nprogress": "^1.0.0-alpha.44",
+    "@vuepress/plugin-search": "^1.0.0-alpha.44",
+    "docsearch.js": "^2.5.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "@vssue/vuepress-plugin-vssue": "^0.7.5",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.44",
+    "@vuepress/plugin-blog": "^1.0.0-alpha.44",
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.44",
+    "@vuepress/plugin-i18n-ui": "^1.0.0-alpha.44",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.44",
+    "@vuepress/plugin-pwa": "^1.0.0-alpha.44",
+    "@vuepress/theme-vue": "^1.0.0-alpha.44",
+    "vue-toasted": "^1.1.25",
+    "vuepress": "^1.0.0-alpha.44",
+    "vuepress-plugin-flowchart": "^1.4.2",
+    "ant-design-vue": "^1.3.5",
+    "jquery": "^3.3.1",
+    "loadsh": "0.0.4"
+  },
+  "deprecated": false,
+  "description": "blog theme for VuePress",
+  "gitHead": "e727f7e2a22855be9154ec5ed62bcc8e9612e366",
+  "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/theme-blog#readme",
+  "keywords": [
+    "documentation",
+    "vue",
+    "vuepress",
+    "generator"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@vuepress/theme-blog",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vuepress.git",
+    "directory": "packages/@vuepress/theme-blog"
+  },
+  "version": "1.0.0-alpha.44"
+}
