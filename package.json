@@ -3,7 +3,7 @@
     "name": "Artiely"
   },
   "bugs": {
-    "url": "https://github.com/artiely/vuepress-theme-blog/issues"
+    "url": "https://github.com/artiely/vuepress-theme-koala/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -31,7 +31,7 @@
   },
   "deprecated": false,
   "description": "blog theme for VuePress",
-  "homepage": "https://github.com/artiely/vuepress-theme-blog",
+  "homepage": "https://github.com/artiely/vuepress-theme-koala",
   "keywords": [
     "documentation",
     "vue",
@@ -42,14 +42,14 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@vuepress/theme-blog",
+  "name": "@vuepress/theme-koala",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artiely/vuepress-theme-blog.git",
-    "directory": "packages/@vuepress/theme-blog"
+    "url": "git+https://github.com/artiely/vuepress-theme-koala.git",
+    "directory": "packages/@vuepress/theme-koala"
   },
   "version": "1.0.0-alpha.44"
 }
