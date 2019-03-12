@@ -1,29 +1,4 @@
 {
-  "_from": "@vuepress/theme-blog@^1.0.0-alpha.44",
-  "_id": "@vuepress/theme-blog@1.0.0-alpha.44",
-  "_inBundle": false,
-  "_integrity": "sha512-a2OXi1Z73Ix2gZuFxwnpiwLG8AxrvRBLM8gzNjHh1VEd5YGOFaTh6wt/QHcuFmuUDCvH56HNBprTwTBYv9tHxA==",
-  "_location": "/@vuepress/theme-blog",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "@vuepress/theme-blog@^1.0.0-alpha.44",
-    "name": "@vuepress/theme-blog",
-    "escapedName": "@vuepress%2ftheme-blog",
-    "scope": "@vuepress",
-    "rawSpec": "^1.0.0-alpha.44",
-    "saveSpec": null,
-    "fetchSpec": "^1.0.0-alpha.44"
-  },
-  "_requiredBy": [
-    "/@vuepress/theme-vue",
-    "/vuepress"
-  ],
-  "_resolved": "https://registry.npmjs.org/@vuepress/theme-blog/-/theme-blog-1.0.0-alpha.44.tgz",
-  "_shasum": "48f973dc52a83a9c64292ec15c2c341111bb28c4",
-  "_spec": "@vuepress/theme-blog@^1.0.0-alpha.44",
-  "_where": "C:\\Users\\mayn\\Desktop\\docs\\node_modules\\@vuepress\\theme-vue",
   "author": {
     "name": "Artiely"
   },
@@ -56,13 +31,14 @@
   },
   "deprecated": false,
   "description": "blog theme for VuePress",
-  "gitHead": "e727f7e2a22855be9154ec5ed62bcc8e9612e366",
   "homepage": "https://github.com/artiely/vuepress-theme-blog",
   "keywords": [
     "documentation",
     "vue",
     "vuepress",
-    "generator"
+    "generator",
+    "theme",
+    "vuepress-theme"
   ],
   "license": "MIT",
   "main": "index.js",
