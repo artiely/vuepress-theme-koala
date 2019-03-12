@@ -1,11 +1,8 @@
 {
-  "author": {
-    "name": "Artiely"
-  },
+  "author": "Artiely",
   "bugs": {
     "url": "https://github.com/artiely/vuepress-theme-koala/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@vuepress/plugin-active-header-links": "^1.0.0-alpha.44",
     "@vuepress/plugin-container": "^1.0.0-alpha.44",
@@ -29,7 +26,6 @@
     "jquery": "^3.3.1",
     "loadsh": "0.0.4"
   },
-  "deprecated": false,
   "description": "blog theme for VuePress",
   "homepage": "https://github.com/artiely/vuepress-theme-koala",
   "keywords": [
@@ -42,7 +38,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@vuepress/theme-koala",
+  "name": "vuepress-theme-koala",
   "publishConfig": {
     "access": "public"
   },
@@ -51,5 +47,9 @@
     "url": "git+https://github.com/artiely/vuepress-theme-koala.git",
     "directory": "packages/@vuepress/theme-koala"
   },
-  "version": "1.0.0-alpha.44"
+  "version": "1.0.0-alpha.44",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
