@@ -28,7 +28,7 @@
     "name": "Artiely"
   },
   "bugs": {
-    "url": "https://github.com/vuejs/vuepress/issues"
+    "url": "https://github.com/artiely/vuepress-theme-blog/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -57,7 +57,7 @@
   "deprecated": false,
   "description": "blog theme for VuePress",
   "gitHead": "e727f7e2a22855be9154ec5ed62bcc8e9612e366",
-  "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/theme-blog#readme",
+  "homepage": "https://github.com/artiely/vuepress-theme-blog",
   "keywords": [
     "documentation",
     "vue",
@@ -72,7 +72,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vuepress.git",
+    "url": "git+https://github.com/artiely/vuepress-theme-blog.git",
     "directory": "packages/@vuepress/theme-blog"
   },
   "version": "1.0.0-alpha.44"
