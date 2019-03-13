@@ -52,12 +52,13 @@ body
   // background-color #fff
   // width $sidebarWidth
   position fixed
-  z-index 99
+  z-index 2
   margin 0
   top 7rem
   left 0
   bottom 0
   box-sizing border-box
+  overflow-x: hidden
   // background-color: #ddd
   // border-right 1px solid $borderColor
   
@@ -196,10 +197,10 @@ th, td
 @require 'mobile.styl'
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track-piece {
-  background-color: #282c34;
+  background-color: none
   // -webkit-border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:vertical {

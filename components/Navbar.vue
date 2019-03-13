@@ -1,6 +1,6 @@
 <template>
   <header class="navbar">
-    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
+    <!-- <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" /> -->
     <router-link
       :to="$localePath"
       class="home-link"
@@ -135,6 +135,7 @@ $navbar-horizontal-padding = 1.5rem;
     color: #fff;
     // text-align: center;
     border: none;
+    min-width: 100px;
   }
 }
 .navbar {
