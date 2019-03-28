@@ -1,6 +1,11 @@
-# @vuepress/theme-default
-
+# vuepress-theme-koala
 > theme for vuepress
+
+```
+npm i vuepress-theme-koala
+```
+https://v1.vuepress.vuejs.org/theme/using-a-theme.html
+
 
 ## Plugins
 

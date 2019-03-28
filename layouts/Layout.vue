@@ -1,9 +1,6 @@
 <template>
-  <!-- class="theme-container" -->
   <div style="height:100%">
     <header>
-      <!-- <Menu></Menu> -->
-      <!-- <Navbar v-if="shouldShowNavbar" /> -->
     </header>
     <componen
       class="main-content"
@@ -21,29 +18,19 @@ export default {
   computed: {
     layout () {
       const { path } = this.$page
-      if (path === '/' || path === '/zh/') {
-        return home
-      } else {
+      if (path !== '/' && path !== '/zh/') {
         return post
+      } else {
+        return home
       }
     },
-    // shouldShowNavbar () {
-    //   const { themeConfig } = this.$site
-    //   const { frontmatter } = this.$page
-    //   if (
-    //     frontmatter.navbar === false
-    //     || themeConfig.navbar === false) {
-    //     return false
-    //   }
-    //   return (
-    //     this.$title
-    //     || themeConfig.logo
-    //     || themeConfig.repo
-    //     || themeConfig.nav
-    //     || this.$themeLocaleConfig.nav
-    //   )
-    // },
   }
 }
 </script>
+<style>
+.ant-layout-sider {
+  min-height: 100vh !important;
+}
+</style>
+
 

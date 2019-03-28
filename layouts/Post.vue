@@ -152,9 +152,7 @@ export default {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsSAAALEgHS3X78AAAAKUlEQVQImWPU2ZIiyYAEWBgYGN4i8YUZ////D+fpbk2VZEJWzsDAwAAABAkGw98D+xYAAAAASUVORK5CYII=);
 } */
 .ant-layout-sider-zero-width-trigger {
-  /* position: fixed; */
   top: 7.5rem;
-  /* left: 0; */
 }
 .ant-layout-sider {
   background-color: rgba(0, 21, 41, 0.8) !important;
@@ -163,13 +161,6 @@ export default {
 #app,
 .main-content {
   height: 100%;
-}
-.ant-layout-sider {
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0; */
-  /* z-index: 99; */
 }
 .slide-fade-enter-active {
   transition: all 0.18s ease;

@@ -31,7 +31,7 @@
                     </template></p>
                 </div>
                 <div
-                  class="right"
+                  class="right "
                   v-if="item.frontmatter.poster"
                 >
                   <img
@@ -44,7 +44,7 @@
           </template>
           <!-- {{this.$site.pages}} -->
         </div>
-        <div class="more-content">
+        <div class="more-content hidden-md-and-down">
           <div class="tags-box">
             <div class="title">标签</div>
             <div class="body">
@@ -256,7 +256,7 @@ export default {
   background: #f4f5f5;
 }
 .home-container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   display: flex;
   padding-top: 120px;
@@ -265,11 +265,12 @@ export default {
   max-width: 700px;
   margin: 0 auto;
   flex: 1;
-  padding: 60px 20px 0 0;
+  padding: 60px 0 0 0;
+  margin-right: 20px;
   background: #fff;
   .list-main {
     border-bottom: 1px solid rgb(238, 238, 238, 0.5);
-    padding: 10px 0 0 20px;
+    padding: 10px 20px 0 20px;
     display: flex;
     cursor: pointer;
     .left {
@@ -307,6 +308,7 @@ export default {
       -webkit-box-orient: vertical;
       -webkit-line-clamp: 2;
       margin-bottom: 6px;
+      padding-right: 10px;
     }
   }
 }
